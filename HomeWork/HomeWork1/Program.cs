@@ -56,10 +56,10 @@ Console.WriteLine($" number {n1} is not an even number");
 Console.Write("input a first namber: ");
 int N =Convert.ToInt32(Console.ReadLine());
 
-int current =1; 
+int current =2; 
 while(current <=N)
 {
 Console.Write(current + " ");
-current++;
+current+=2;
 }
 */
