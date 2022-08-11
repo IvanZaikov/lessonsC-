@@ -39,7 +39,7 @@ ThirdNamber=ThirdNamber%10;
 Console.WriteLine($"three-digit number: of {n} is {ThirdNamber}");
 }
 */
-
+/*
 // Напишите программу, которая принимает на вход цифру, обозначающую день недели,
 // и проверяет, является ли этот день выходным.
 
@@ -54,3 +54,4 @@ Console.WriteLine("weekend");
 Console.Write("enter a number from 1 to 7: ");
 int n =Convert.ToInt32(Console.ReadLine());
 Dennedeli(n);
+*/
