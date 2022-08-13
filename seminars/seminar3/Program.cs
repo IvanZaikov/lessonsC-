@@ -107,13 +107,13 @@ double coordinate = FindDistance(xa, xb, ya, yb);
 Console.WriteLine($"Distance is {coordinate}");
 */
 //Задача №4. Напишите программу, которая принимает на вход число (N) и выдаёт на консоль квадраты чисел от 1 до N.
-/*
+
 void ShowSquare (int n)
 {
     int current = 1;
     while(current <= n)
     {
-        Console.WriteLine($"Квадрат числа {current} = {current * current}");
+        Console.Write($"Квадрат числа {current} = {current * current}");
         current++;
     }
 
@@ -121,4 +121,3 @@ void ShowSquare (int n)
 Console.Write("Введите любое целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 ShowSquare(number);
-*/
