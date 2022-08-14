@@ -48,3 +48,4 @@ int number =Convert.ToInt32(Console.ReadLine());
 int ed=number%10;
 Console.WriteLine($"last number of three-digit namber is {ed}");
 */
+//// ihhkhkbyluyu
