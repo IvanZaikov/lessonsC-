@@ -1,4 +1,4 @@
-﻿/*
+/*
 // // Задача 1. Напишите программу, которая принимает на вход число (А) и выдаёт сумму чисел от 1 до А.
 int FindSum (int number)
 {
@@ -175,3 +175,52 @@ void ShowArray(int[] array)
 }
 Console.WriteLine();
 ShowArray(myArray);
+
+    for (int j = 2; j <= 10; j++)
+    {
+     Console.WriteLine($"{i}*{j}={i*j}");
+     
+    }
+    Console.WriteLine();
+}
+
+*/
+// Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+//1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+//6, 1, 33 -> [6, 1, 33]
+
+int [,] array (int a,int b, int min, int max )
+{
+    int [,] newarray = new int[a,b];
+    for (int i = 0; i < a; i++)
+    {
+      for (int j = 0; j <b; j++)
+      {
+          newarray[i,j]=new Random().Next(min,max+1);
+      }
+    } 
+    return newarray;
+}
+void ShowArray (int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+      for (int j = 0; j < array.GetLength(1); j++)
+      {
+        Console.Write($"{array[i,j]} "); 
+        
+      } 
+      Console.WriteLine();
+    }
+    
+}
+Console.Write("Введите колличество строк: ");
+int a=Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите колличество столбцов: ");
+int b=Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите элемент массива min : ");
+int min =Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите максимальный элемент массива: ");
+int max=Convert.ToInt32(Console.ReadLine());
+int[,] p=array(a,b,min,max);
+ShowArray(p); 
