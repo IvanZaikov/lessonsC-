@@ -86,6 +86,79 @@ Console.Write("Input k2: ");
 double k2 = Convert.ToDouble(Console.ReadLine());
 Metod(b1, k1, b2, k2);
 */
+/*
+int [] Creatarray (int size, int min, int max)
+{
+    int []array= new int[size];
+    for (int i = 0; i < size; i++)
+    {
+        array[i]=new Random().Next(min,max);
+    }
+    return array;
+
+}
+void ShowArra (int[]array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i]+" ");
+    }
+    Console.WriteLine();
+}
+Console.Write("input size array " );
+int size=Convert.ToInt32(Console.ReadLine());
+Console.Write("input min valei array ");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.Write("input max valei array ");
+int max =Convert.ToInt32(Console.ReadLine());
+Creatarray(size,min,max);
+ShowArra(Creatarray(size,min,max));
+*/
+/*
+int [,] CreatArray2 (int s, int st, int min, int max)
+{
+    int [,]array=new int[s,st];
+    for (int i = 0; i < s; i++)
+    {
+        for (int j = 0; j < st; j++)
+        {
+            array[i,j]=new Random().Next(min,max);
+        }
+    }
+    return array;
+}
+void ShowArra2 (int[,]array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i,j] + " ");
+           
+        }
+         Console.WriteLine();
+    }
+}
+Console.Write("input s array ");
+int s=Convert.ToInt32(Console.ReadLine());
+Console.Write("input st array ");
+int st=Convert.ToInt32(Console.ReadLine());
+Console.Write("input min alement array ");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.Write("input max alement array ");
+int max = Convert.ToInt32(Console.ReadLine());
+CreatArray2(s,st,min,max);
+ShowArra2(CreatArray2(s,st,min,max));
+*/
+
+// Задача 3. Не используя рекурсию, выведите первые N чисел Фибоначчи. Первые два числа Фибоначчи: a и b.
+int[] Fibbonachi(int firstNumber, int secondNumber, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        
+    }
+}
 
 
 
