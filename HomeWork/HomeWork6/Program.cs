@@ -151,14 +151,6 @@ CreatArray2(s,st,min,max);
 ShowArra2(CreatArray2(s,st,min,max));
 */
 
-// Задача 3. Не используя рекурсию, выведите первые N чисел Фибоначчи. Первые два числа Фибоначчи: a и b.
-int[] Fibbonachi(int firstNumber, int secondNumber, int size)
-{
-    for (int i = 0; i < size; i++)
-    {
-        
-    }
-}
 
 
 

@@ -91,7 +91,7 @@ Console.Write("Введите номер столбца: ");
 int st=Convert.ToInt32(Console.ReadLine());
 FindNamber(p,s,st);
 */
-/*
+
 //Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
 //Например, задан массив:
 //1 4 7 2
@@ -157,4 +157,3 @@ int[,] myArray = Creatarray2(a, b, vmin, vmax);
 ShowArray2(myArray);
 double [] arr =Arithmetic(myArray);
 ShowArra(arr);
-*/
